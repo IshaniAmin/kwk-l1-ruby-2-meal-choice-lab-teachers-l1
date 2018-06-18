@@ -10,10 +10,12 @@ def breakfast(food = "frosted flakes")
 end
 
 def lunch(food = "grilled cheese")
-  puts "Time to eat breakfast of #{food.downcase}"
+  puts "Time to eat lunch of #{food.downcase}"
 end
 
-
+def dinner(food = "salmon")
+  puts "Time to eat dinner of #{food.downcase}"
+end
 
 
 
